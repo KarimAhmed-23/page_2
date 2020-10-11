@@ -1174,10 +1174,10 @@ footer{
     
     .payment-ways{justify-content: center;margin-top: 20px}
 }
-
+/*
 .banner-5 {
     position: absolute;
-    bottom: 0;
+    bottom: 0px;
     left: 0;
     background-image: url(../img/footer-line.png);
     display: block;
@@ -1185,7 +1185,7 @@ footer{
     height: 4px;
     background-repeat: repeat-x;
     background-size: contain;
-}
+}*/
 
 
 
