@@ -22,10 +22,10 @@ $(document).ready(function(){
 }) ;
     
     
-    
-    if(window.innerWidth <=992){
         
-       let maxHeight=0;
+        $(function(){
+            
+                let maxHeight=0;
     
     $(".same-height").each(function(){
         
@@ -39,10 +39,16 @@ $(document).ready(function(){
     
     
      $(".same-height").height(maxHeight);  
-    }
+     
+        });
+  
+     
+   
     
-    
-    if(window.innerWidth <=992){
+        
+      if (window.innerWidth <=992){
+          
+  
         
        let maxHeight=0;
     
@@ -58,8 +64,12 @@ $(document).ready(function(){
     
     
      $(".package-body").height(maxHeight);  
-    }
     
+     
+    
+        } 
+    
+ 
     
     
      $(".our-missions").each(function(){

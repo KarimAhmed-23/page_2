@@ -272,9 +272,10 @@ display: block}
     .dropdown-language{right: 0;width: 200px;margin-bottom: 50px}
 }
 
-@media (min-width: 992px) and (max-width:1200px){
+@media (min-width: 992px) and (max-width:1199px){
     
-    .navigation-link { padding: 23px 5px;font-size: 11px}
+    .navigation-link  { padding: 23px 3px;font-size: 10px}
+    .login_link{font-size: 10px}
 }
 
 
@@ -463,7 +464,7 @@ font-family: '29lt_bukrabold_italic'}
 }
 
 .comparison-number img:first-of-type{width: 60px;margin-top: -28px}
-.comparison-number img:last-of-type{width: 65px;margin-top:26px}
+.comparison-number img:last-of-type{width: 63px;margin-top:26px;max-width: none}
 
 
 @media (min-width:576px) and (max-width:992px){
