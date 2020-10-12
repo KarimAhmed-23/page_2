@@ -466,25 +466,29 @@ font-family: '29lt_bukrabold_italic'}
 .comparison-number img:first-of-type{width: 60px;margin-top: -28px}
 .comparison-number img:last-of-type{width: 63px;margin-top:26px;max-width: none}
 
-
+@media (min-width:992px) and (max-width:1200px){
+        .comparison-number img:last-of-type {
+  margin-top: 35px;
+}
+}
 @media (min-width:576px) and (max-width:992px){
     
         .product-1 , .product-2{padding: 15px 12px}
     .comparison-number img:last-of-type {
     display: none;
 }
+}
     @media (max-width:992px){
         .product-1 .comparison-details li p , .product-2 .comparison-details li p{font-size: 13px}    
         
     }
 
-}
-@media (min-width:576px) and  (max-width:767px){
+
+@media (min-width:576px) and  (max-width:768px){
     
      .product-1 .comparison-details li p , .product-2 .comparison-details li p{
-    font-size: 11px;
-
-}
+    font-size: 11px;}
+    
 }
 
 @media (max-width:575px) {
@@ -552,7 +556,7 @@ font-family: '29lt_bukrabold_italic';
 
 }
 
-.package-body{background-color: #fff;margin-bottom: 20px}
+.package-body {background-color: #fff;margin-bottom: 20px}
 .Premium{display: none;}
 
 
@@ -657,6 +661,11 @@ font-family: '29lt_bukrabold_italic';
     .packages-title{margin-bottom: 7rem}
 
 
+}
+
+@media (max-width:992px){
+    
+    .package-body {height: 467px} 
 }
 
 .banner-1{position: relative;padding: 5em 0}
@@ -1009,6 +1018,34 @@ font-family: 'efframedium';
 }
 @media (max-width:480px){
     .accordion-title h4{font-size: 15px}
+}
+
+
+
+.testimonial-section{
+    padding-top: 5em;
+    position: relative;
+    background-color: #EBF1F8;
+}
+.testimonial-text{
+ font-family: 'Effra';
+    color: #808184;
+
+}
+.author-name{
+      font-family: '29lt_bukrabold_italic';
+  
+}
+
+.testimonial--author-bottom .avatar {
+    margin-left: 0 !important;
+    margin-right: 20px !important;
+}
+.testimonial-section .swiper-btn-next .crumina-icon , .testimonial-section .swiper-btn-prev .crumina-icon{
+    fill:#441115 !important;
+}
+ .testimonial-section .swiper-pagination-bullets .swiper-pagination-bullet{
+    background-color: #441115 !important;
 }
 
 
