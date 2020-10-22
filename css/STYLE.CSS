@@ -46,7 +46,7 @@ body{
 }
 @media (max-width:768px){
    .crumina-main-slider .swiper-slide {
-height: 60vh;
+height: 70vh;
 }
     
 
@@ -1272,10 +1272,20 @@ footer{
 
 .Social-media span:hover {    transition: 0.7s ease;  transform: scale(1.1)}
 
+
+@media only screen and (max-width: 480px) {
+    
+    .Social-media span a{margin-right: 10px}
+    .contact-title p{font-size: 12px}
+} 
+
+
 @media (max-width:768px){
     
     .payment-ways{justify-content: center;margin-top: 20px}
 }
+
+
 /*
 .banner-5 {
     position: absolute;
