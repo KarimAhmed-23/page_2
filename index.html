@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="ar">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="theme-color" content="#330107">
+
 	<title>قـلاري الإبـداع للإستضافة</title>
 
 	<link rel="stylesheet" type="text/css" href="css/vendors/Bootstrap/bootstrap.min.css">
@@ -11,13 +13,14 @@
 	<link href="css/plugins/navigation.min.css" rel="stylesheet">
 
 	<link rel="stylesheet" type="text/css" href="css/main.min.css">
-	<!--<link rel="stylesheet" type="text/css" href="css/theme-font.min.css">-->
     <!-- اسكربت التعديلات-->
      <link rel="stylesheet" href="css/slick.css">
      <link rel="stylesheet" href="css/slick-theme.css">
     <link rel="stylesheet" type="text/css" href="css/STYLE.CSS">
     <link rel="stylesheet" href="css/fontawesome.min.css">
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Cairo'>
+	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Tajawal'>
+
     <link rel="stylesheet" href="css/fonts/stylesheet.css">
 
     
@@ -117,12 +120,23 @@
 		<div class="navigation-body">
 			<div class="navigation-body-header">
 				<div class="navigation-logo">
-					<a href="index.html">
+					
+					<a class="logo-img" href="index.html">
 
 
                     <img loading="lazy" src="img/%D8%A7%D9%84%D8%B4%D8%B9%D8%A7%D8%B1%D8%A7%D8%AA%20%D8%A7%D9%84%D8%A7%D8%B3%D8%A7%D8%B3%D9%8A%D8%A9-05.svg" alt="logo">
 
 					</a>
+					
+					<div class=" login-link">
+					
+					
+                         <span>يا هلا والله </span>	
+					
+				         <a href="#" data-toggle="modal" data-target="#userMenuPopup">الدخول أو التسجيل من هنا  </a>
+					</div>
+					
+					
 				</div>
 				<span class="navigation-body-close-button">&#10005;</span>
 			</div>
@@ -197,12 +211,118 @@
 				<li class="navigation-item">
 					<a class="navigation-link" href="15_blog.html">المدونة</a>
 				</li>
-				<li class="navigation-item " style="padding: 0px 13px;margin: auto">
-<a class=" login_link"  data-toggle="modal" data-target="#userMenuPopup">تسجيل دخول</a>
+				
+				
+			   <li class="navigation-item" id="conutry">
+					<a class="navigation-link position-relative" href="#" tabindex="-1">
+						<i class="fas fa-globe ml-2"></i>
+						أختر الدولة 
+                     
+					</a>
+					
+						<ul class="navigation-dropdown">
+						<li class="navigation-dropdown-item">
+							
+						   <a class="navigation-dropdown-link" href="#">
+						<img src="img/saudi-arabia.svg" width="30px" height="30px"> 
+					
+					<span class="mr-2">السعودية</span>
+						  
+						  </a>
+							
+						</li>
+						<li class="navigation-dropdown-item">
+							
+						<a class="navigation-dropdown-link" href="#">
+							
+							<img src="img/bahrain.svg" width="30px" height="30px"> 
+					
+					<span class="mr-2">البحرين </span>
+						  
+						  </a>
+							
+						</li>
+							
+						
+					</ul>
+					
+					
+				</li>
+				
+				
+				 <li class="navigation-item" id="lang">
+					<a class="navigation-link" href="15_blog.html">
+						<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	                   viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<circle style="fill:#F0F0F0;" cx="256" cy="256" r="256"/>
+<g>
+	<path style="fill:#0052B4;" d="M52.92,100.142c-20.109,26.163-35.272,56.318-44.101,89.077h133.178L52.92,100.142z"/>
+	<path style="fill:#0052B4;" d="M503.181,189.219c-8.829-32.758-23.993-62.913-44.101-89.076l-89.075,89.076H503.181z"/>
+	<path style="fill:#0052B4;" d="M8.819,322.784c8.83,32.758,23.993,62.913,44.101,89.075l89.074-89.075L8.819,322.784L8.819,322.784
+		z"/>
+	<path style="fill:#0052B4;" d="M411.858,52.921c-26.163-20.109-56.317-35.272-89.076-44.102v133.177L411.858,52.921z"/>
+	<path style="fill:#0052B4;" d="M100.142,459.079c26.163,20.109,56.318,35.272,89.076,44.102V370.005L100.142,459.079z"/>
+	<path style="fill:#0052B4;" d="M189.217,8.819c-32.758,8.83-62.913,23.993-89.075,44.101l89.075,89.075V8.819z"/>
+	<path style="fill:#0052B4;" d="M322.783,503.181c32.758-8.83,62.913-23.993,89.075-44.101l-89.075-89.075V503.181z"/>
+	<path style="fill:#0052B4;" d="M370.005,322.784l89.075,89.076c20.108-26.162,35.272-56.318,44.101-89.076H370.005z"/>
+</g>
+<g>
+	<path style="fill:#D80027;" d="M509.833,222.609h-220.44h-0.001V2.167C278.461,0.744,267.317,0,256,0
+		c-11.319,0-22.461,0.744-33.391,2.167v220.44v0.001H2.167C0.744,233.539,0,244.683,0,256c0,11.319,0.744,22.461,2.167,33.391
+		h220.44h0.001v220.442C233.539,511.256,244.681,512,256,512c11.317,0,22.461-0.743,33.391-2.167v-220.44v-0.001h220.442
+		C511.256,278.461,512,267.319,512,256C512,244.683,511.256,233.539,509.833,222.609z"/>
+	<path style="fill:#D80027;" d="M322.783,322.784L322.783,322.784L437.019,437.02c5.254-5.252,10.266-10.743,15.048-16.435
+		l-97.802-97.802h-31.482V322.784z"/>
+	<path style="fill:#D80027;" d="M189.217,322.784h-0.002L74.98,437.019c5.252,5.254,10.743,10.266,16.435,15.048l97.802-97.804
+		V322.784z"/>
+	<path style="fill:#D80027;" d="M189.217,189.219v-0.002L74.981,74.98c-5.254,5.252-10.266,10.743-15.048,16.435l97.803,97.803
+		H189.217z"/>
+	<path style="fill:#D80027;" d="M322.783,189.219L322.783,189.219L437.02,74.981c-5.252-5.254-10.743-10.266-16.435-15.047
+		l-97.802,97.803V189.219z"/>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+
+						English
+					</a>
+				</li>
+				
+				
+				<li class="navigation-item login_btn  " style="padding: 0px 13px;margin: auto">
+               <a class=" login_link"  data-toggle="modal" data-target="#userMenuPopup">تسجيل دخول</a>
 				</li>
                 
-                <li class="navigation-item">
-<a class="navigation-link tooltip" style="cursor: pointer">
+                <li class="navigation-item join-btn">
+                       <a class="navigation-link tooltip" style="cursor: pointer">
                         <span style="
                       margin: 8px 0px 0px -9px;
                       font-size: 16px;
@@ -216,31 +336,48 @@
                 
                 
 			</ul>
+			
 			<div class="navigation-body-section navigation-additional-menu mr-3">
+				
 				<div class="navigation-search">
 					<div class="link-modal-popup" data-toggle="modal" data-target="#popupSearch"></div>
 					<svg class="crumina-icon">
 						<use xlink:href="#icon-search"></use>
 					</svg>
 				</div>
+				
 				<div class="language">
-            <div>
-                <img src="img/999.svg" width="30px" height="30px">
+					
+		       <div>
+                <img src="img/saudi-arabia.svg" width="30px" height="30px">
                     
-                      <div class="dropdown-language">
-                <a href="#">      <img src="img/999.svg" width="30px" height="30px"> <span>السعودية</span></a>
-             <a href="#">          <img src="img/999.svg"  width="30px" height="30px"><span>البحرين</span> </a>
+                      <div class="dropdown-conutry">
+						  
+                <a href="#"><img src="img/saudi-arabia.svg" width="30px" height="30px"> 
+					
+					<span>السعودية</span>
+						  
+						  </a>
+				<a href="#"><img src="img/bahrain.svg" width="30px" height="30px"> 
+					
+					<span>البحرين </span>
+						  
+						  </a>
+					
+						  
+						  
                    </div>
                 
                 
                     </div>
 
+                        
                    <div class="mr-2">| EN </div>
                     
                 
                 </div>
                 
-                	<div class="cart-icon" style="color: #ea952e ;cursor: pointer">
+               <div class="cart-icon" style="color: #ea952e ;cursor: pointer">
            
                     <img  src="img/cart.svg" width="35px" height="35px">
                 
@@ -283,7 +420,7 @@
 								<form class="search-popup-form">
 									<div class="input-btn--inline" style="direction: rtl">
 										<input class="input--dark" type="text" placeholder="اختر عنوان الويب الجديد ...">
-										<button type="button" class="crumina-button button--primary button--l" style="left: -1px;right: auto;background-color:#330107 ;border-color: #330107 ">SEARCH</button>
+										<button type="button" class="crumina-button button--primary button--l" style="left: -1px;right: auto;background-color:#235E2F ;border-color: #330107 ">SEARCH</button>
 									</div>
 								</form>
 							</div>
@@ -637,7 +774,7 @@
 			<div class="slider-slides">
 				<div class="container">
 					<div class="row">
-						<div class="slider-slides-wrap">
+						<div class="slider-slides-wrap" style="font-family: '29lt_bukrabold_italic';">
 							<div class="slides-item slides-item-primary swiper-slide-active">
 								<span class="slides-item-text">استضافة ووردبريس</span>
 							</div>
@@ -680,7 +817,7 @@
             
             <img class="img-fluid" src="img/Asset%201.svg">
                 
-            <p>قلاري للاستضافة مؤسسة تقينة رائد في تقنية المعلوماتتميزنا في مجال خدمات مواقع الانترنت و
+            <p>قلاري للاستضافة مؤسسة تقينة رائد في تقنية المعلومات تميزنا في مجال خدمات مواقع الانترنت و
                 التسويق الإلكتروني وبرمجة تطبيقات تنوعت خدماتنا بين تصميم مواقع وسيرفرات و
                 تسويق إلكتروني وحملات تسويقية حققت النجاح لكثير من الشركات 
                 والمواقع الإلكترونية في كافة الأنشطة التجارية، وبرمجة مواقع
@@ -712,7 +849,7 @@
             
             <img class="img-fluid" src="img/Asset%203.svg">
                 
-            <p>قلاري للاستضافة مؤسسة تقينة رائد في تقنية المعلوماتتميزنا في مجال خدمات مواقع الانترنت و
+            <p>قلاري للاستضافة مؤسسة تقينة رائد في تقنية المعلومات تميزنا في مجال خدمات مواقع الانترنت و
                 التسويق الإلكتروني وبرمجة تطبيقات تنوعت خدماتنا بين تصميم مواقع وسيرفرات و
                 تسويق إلكتروني وحملات تسويقية حققت النجاح لكثير من الشركات 
                 والمواقع الإلكترونية في كافة الأنشطة التجارية، وبرمجة مواقع
@@ -1168,7 +1305,7 @@
     
     <div class="container">
         
-        <div class="row text-center mb-4">
+        <div class="row text-center mb-2">
         
         
         <div class="col-12">
@@ -1202,12 +1339,12 @@
               
               <ul class="comparison-details">
               
-              <li><p>باقات استضافةقلاري تناسب إمكانيات جميع المواقع</p></li>
+              <li><p>باقات استضافة قلاري تناسب إمكانيات جميع المواقع</p></li>
               <li><p>تقدم قلاري للاستضافة دعم فني مباشر ومتواصل خلال دقائق معدودة</p></li>
               <li><p>دعم فني متواصل دون أي انقطاع في الأعياد أو المناسبات 24 ساعة/365 يوم</p></li>
               <li><p>قلاري للاستضافة تستضيف مواقع معدودة على سيرفر واحد</p></li>
               <li><p>استضافة قلاري سرعة فائقة وغير محدودة</p></li>
-              <li><p>توفر باقات استضافة قلاري موارد كبيرة</p></li>
+              <li class="mb-0"><p>توفر باقات استضافة قلاري موارد كبيرة</p></li>
 
 
               
@@ -1219,20 +1356,19 @@
             </div>
             
             
-            
+         
         <div class="d-none d-md-block col-md-1">
             
             <div class="comparison-number">
+				
             <img src="img/Asset%205.svg">
-                
-            <img class="img-number" src="img/Asset%207.svg">    
-            
+          
             </div>
             
           
             
             </div> 
-            
+           
             
             
         <div class="col-12 col-sm-6  col-md-5">
@@ -1250,7 +1386,7 @@
               <li><p>لدعم الفني المقدم من الشركات الأجنبية يتوقف في الأعياد والمناسبات</p></li>
               <li><p>الشركات الأجنبية تستضيف عدة مواقع متعددة على سيرفر واحد</p></li>
               <li><p>استضافة الشركات الأجنبية تواجه مشاكل في الحماية والسرعة</p></li>
-              <li><p>مشاكل متعددة خاصة بحجب الموارد والاستعلامات</p></li>
+              <li class="mb-0"><p>مشاكل متعددة خاصة بحجب الموارد والاستعلامات</p></li>
 
 
               
@@ -1289,9 +1425,9 @@
             </div>
         <div class="col-12">
             
-            <div class="info-description text-center">
+            <div class="info-description">
             <p>
-                السيرفر الافتراضي هو يعتبر جزء صغير من السيرفر الخاص او السيرفر الكامل ، فبالتالي موارده أقل ، والتحكم به أقل ،<br> فعند حجزك سيرفر كامل او سيرفر خاص يمكنك تجزئته لعدم سيرفرات افتراضية (VPS)  وتحدد لكلاً منها موارد خاصه ، <br>
+                السيرفر الافتراضي هو يعتبر جزء صغير من السيرفر الخاص او السيرفر الكامل ، فبالتالي موارده أقل ، والتحكم به أقل ، فعند حجزك سيرفر كامل او سيرفر خاص يمكنك تجزئته لعدم سيرفرات افتراضية (VPS)  وتحدد لكلاً منها موارد خاصه ، 
                 فهي مناسبة جداً في حاله كان ميزانيتك لا ترقى للسيرفر الخاصة وموقعك زياراته لا تتحملها الاستضافات المشتركه العادية
                 
                 </p>
@@ -1490,7 +1626,7 @@
         
         <h4>أمن المعلومات </h4>
             
-            <ul class="list-unstyled m-0 p-0">
+            <ul class="list-unstyled m-0 p-0 mb-4">
             
             <li>
                 
@@ -2557,7 +2693,7 @@
             
              <div class="d-flex flex-row align-items-center justify-content-center mt-5">
             
-            <p style="color: #929497;font-size: 12px;text-align: center;font-family: 'Effra'">
+            <p style="color: #929497;font-size: 12px;text-align: center;font-family: 'Effra';margin-bottom: 0px">
             
                
                 الدليل العالمي  |  خريطه الموقع  |   شروط الخدمة |   الخصوصيه <br> جميع الحقوق للإبداع للإدارة السحابية محفوظة 2020 &reg; 
@@ -2636,7 +2772,199 @@
     
     
 
+    <div class="tool-bar">
+    
+      <div class="tool">
+        
+    <a href="#">
+        
+        
+       <div class="tool-icon">
+        
+        
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<g>
+	<g>
+		<path d="M506.555,208.064L263.859,30.367c-4.68-3.426-11.038-3.426-15.716,0L5.445,208.064
+			c-5.928,4.341-7.216,12.665-2.875,18.593s12.666,7.214,18.593,2.875L256,57.588l234.837,171.943c2.368,1.735,5.12,2.57,7.848,2.57
+			c4.096,0,8.138-1.885,10.744-5.445C513.771,220.729,512.483,212.405,506.555,208.064z"></path>
+	</g>
+</g>
+<g>
+	<g>
+		<path d="M442.246,232.543c-7.346,0-13.303,5.956-13.303,13.303v211.749H322.521V342.009c0-36.68-29.842-66.52-66.52-66.52
+			s-66.52,29.842-66.52,66.52v115.587H83.058V245.847c0-7.347-5.957-13.303-13.303-13.303s-13.303,5.956-13.303,13.303v225.053
+			c0,7.347,5.957,13.303,13.303,13.303h133.029c6.996,0,12.721-5.405,13.251-12.267c0.032-0.311,0.052-0.651,0.052-1.036v-128.89
+			c0-22.009,17.905-39.914,39.914-39.914s39.914,17.906,39.914,39.914v128.89c0,0.383,0.02,0.717,0.052,1.024
+			c0.524,6.867,6.251,12.279,13.251,12.279h133.029c7.347,0,13.303-5.956,13.303-13.303V245.847
+			C455.549,238.499,449.593,232.543,442.246,232.543z"></path>
+	</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
 
+        </div>
+        
+       <span class="d-block">
+        
+                الرئيسية
+        
+        </span>    
+    
+        </a>    
+    
+   
+    
+    </div>
+	
+      <div class="tool" data-toggle="modal" data-target="#popupSearch">
+        
+    <a href="#">
+        
+        
+       <div class="tool-icon">
+        
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 512 512">
+  <g>
+    <path d="M495,466.2L377.2,348.4c29.2-35.6,46.8-81.2,46.8-130.9C424,103.5,331.5,11,217.5,11C103.4,11,11,103.5,11,217.5   S103.4,424,217.5,424c49.7,0,95.2-17.5,130.8-46.7L466.1,495c8,8,20.9,8,28.9,0C503,487.1,503,474.1,495,466.2z M217.5,382.9   C126.2,382.9,52,308.7,52,217.5S126.2,52,217.5,52C308.7,52,383,126.3,383,217.5S308.7,382.9,217.5,382.9z"></path>
+  </g>
+</svg>
+
+     
+        </div>
+        
+       <span class="d-block">
+        
+                بحث
+        
+        </span>    
+    
+        </a>    
+    
+   
+    
+    </div>
+  
+      <div class="tool">
+        
+    <a href="#">
+        
+        
+       <div class="tool-icon">
+        
+     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 49.47 43.55"><defs><style>.cls-1{fill:#333;}</style></defs><title>cart</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M38,34.94H20.87a18.1,18.1,0,0,1,2.18,3.52,3.67,3.67,0,0,1-1.31,4,4.33,4.33,0,0,1-6.19-.38c-1.85-2.16-1.26-4.82,1.73-7.12-2.78.11-4.91-.74-5.58-3.52-.52-2.15.51-3.74,2.43-5q-1.24-5.6-2.48-11.26C10.85,11.55,10,7.91,9.29,4.25c-.21-1-.57-1.47-1.71-1.4-1.93.11-3.87,0-5.81,0C.76,2.89,0,2.55,0,1.43S.81,0,1.81,0C4.44,0,7.07,0,9.7,0a1.71,1.71,0,0,1,1.93,1.54c.21,1,.56,2.06.69,3.1s.63,1.21,1.57,1.2c8,0,16.05,0,24.07,0,3.18,0,6.37,0,9.55,0,1.72,0,2.26.72,1.8,2.34-1.8,6.38-3.65,12.75-5.42,19.14a2.18,2.18,0,0,1-2.49,1.8c-8.12,0-16.24,0-24.36,0-.37,0-.83-.14-1.08,0-.54.37-1.24.83-1.38,1.38-.2.8.43,1.35,1.31,1.42.36,0,.74,0,1.1,0H41.21c.41,0,.94-.14,1.22.06.5.37,1.18,1,1.18,1.43s-.68,1.06-1.2,1.41a1.83,1.83,0,0,1-1,.08,18.46,18.46,0,0,1,2.2,3.54,3.69,3.69,0,0,1-1.33,4,4.32,4.32,0,0,1-6.35-.6C34.21,39.55,34.93,36.91,38,34.94ZM13.25,8.76c1.24,5.62,2.46,11.1,3.65,16.58.18.84.72.79,1.34.79,7.29,0,14.58,0,21.87,0,.88,0,1.17-.33,1.39-1.11C42.91,20,44.37,15,45.81,9.9A10.28,10.28,0,0,0,46,8.76Zm7.22,30.73v-.63c-.54-.36-1.06-1-1.63-1a1.17,1.17,0,0,0-1.35,1.47,2.09,2.09,0,0,0,1.43,1.26C19.4,40.6,20,39.87,20.47,39.49ZM41,39.56V39c-.53-.39-1-1-1.59-1.12A1.2,1.2,0,0,0,38,39.24a2.06,2.06,0,0,0,1.39,1.33C39.86,40.63,40.44,39.93,41,39.56Z"></path></g></g></svg>
+     
+        </div>
+        
+       <span class="d-block">
+        
+                العربه
+        
+        </span>    
+    
+        </a>    
+    
+   
+    
+    </div>
+    
+      <div class="tool" data-toggle="modal" data-target="#userMenuPopup">
+        
+    <a href="#">
+        
+        
+       <div class="tool-icon">
+        
+           <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<g>
+	<g>
+		<path d="M437.02,330.98c-27.883-27.882-61.071-48.523-97.281-61.018C378.521,243.251,404,198.548,404,148
+			C404,66.393,337.607,0,256,0S108,66.393,108,148c0,50.548,25.479,95.251,64.262,121.962
+			c-36.21,12.495-69.398,33.136-97.281,61.018C26.629,379.333,0,443.62,0,512h40c0-119.103,96.897-216,216-216s216,96.897,216,216
+			h40C512,443.62,485.371,379.333,437.02,330.98z M256,256c-59.551,0-108-48.448-108-108S196.449,40,256,40
+			c59.551,0,108,48.448,108,108S315.551,256,256,256z"></path>
+	</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+
+     
+        </div>
+        
+       <span class="d-block">
+        
+                حسابي
+        
+        </span>    
+    
+        </a>    
+    
+   
+    
+    </div>
+  
+  
+    
+    
+    </div>
     
     
  

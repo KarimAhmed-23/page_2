@@ -19,19 +19,21 @@ $(document).ready(function(){
     
      
     $(".language").click(function(){
-    $(".dropdown-language").slideToggle();
+    $(".dropdown-conutry").slideToggle();
 }) ;
     
     
      $(".same-height").matchHeight();
-    
+     $(".comparison-details").matchHeight();
 
   
 
-    $(".our-missions").matchHeight();
+    $(".our-missions p").matchHeight();
+	$(".Hosting-clary-content p").matchHeight();
+
+
     $(".blog-content").matchHeight();
     
-
     
     
     
@@ -62,10 +64,11 @@ $(".accordion-title").click(function() {
     delay: 20, // the delay time in ms
     time: 1000 // the speed time in ms
   });
+	
   
+$(".footer-menu h5").matchHeight();
 
 $(".footer-menu ul").matchHeight();
-        $(".footer-menu h5").matchHeight();
 
     
    
